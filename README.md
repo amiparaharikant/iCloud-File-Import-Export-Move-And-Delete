@@ -1,7 +1,10 @@
 # iCloud-File-Import-Export-Move-And-Delete
+	here
 
-Step 1: Add into your info.Plist
 
+# Step 1: Add into your info.Plist
+
+```
 <key>NSUbiquitousContainers</key>
 <dict>
 	<key>iCloud.com.iCloudFileImportExport</key> //com.iCloudFileImportExport -> is yuor Bundle Id Replace with yours
@@ -14,11 +17,11 @@ Step 1: Add into your info.Plist
 		<string>$(PRODUCT_NAME)</string>
 	</dict>
 </dict>
+```  
   
-  
-  Step 2: Setup With iCloud from project
-  	project -> Capability -> iCloud
-	- Enable(ON) iCloud and enable services 1. key-value-storage & 2. iCloude Documents
+# Step 2: Setup With iCloud from project
+  project -> Capability -> iCloud
+  Enable(ON) iCloud and enable services 1. key-value-storage & 2. iCloude Documents
 	
 
 NOTE : if you can't syn data with iCloud just increment version and build value from general setting.
