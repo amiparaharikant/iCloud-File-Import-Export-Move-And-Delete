@@ -1,8 +1,8 @@
 # iCloud-File-Import-Export-Move-And-Delete
-	here
+this is iCloud Demo for user who want to Import,Export,Move and Delete sync file with iCloud. just follow this simple step and you did it in a few minute.
 
-
-# Step 1: Add into your info.Plist
+## Getting Started
+### Step 1: Add into your info.Plist
 
 ```
 <key>NSUbiquitousContainers</key>
@@ -19,10 +19,14 @@
 </dict>
 ```  
   
-# Step 2: Setup With iCloud from project
-  project -> Capability -> iCloud
-  Enable(ON) iCloud and enable services 1. key-value-storage & 2. iCloude Documents
-	
+### Step 2: Setup With iCloud from project
+``` 
+project -> Capability -> iCloud -> Make it Enable(ON).
 
-NOTE : if you can't syn data with iCloud just increment version and build value from general setting.
+enable services
+1. key-value-storage 
+2. iCloude Documents
+```	
+
+### NOTE : if you can't syn data with iCloud just increment version and build value from general setting.
 	
