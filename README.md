@@ -4,7 +4,7 @@ Step 1: Add into your info.Plist
 
 <key>NSUbiquitousContainers</key>
 <dict>
-	<key>iCloud.com.iCloudeFileImportExport</key> //com.iCloudeFileImportExport -> is yuor Bundle Id Replace with yours
+	<key>iCloud.com.iCloudFileImportExport</key> //com.iCloudFileImportExport -> is yuor Bundle Id Replace with yours
 	<dict>
 		<key>NSUbiquitousContainerIsDocumentScopePublic</key>
 		<true/>
@@ -17,7 +17,7 @@ Step 1: Add into your info.Plist
   
   
   Step 2: Setup With iCloud from project
-  	project -> Capability -> iCloude
+  	project -> Capability -> iCloud
 	- Enable(ON) iCloud and enable services 1. key-value-storage & 2. iCloude Documents
 	
 
