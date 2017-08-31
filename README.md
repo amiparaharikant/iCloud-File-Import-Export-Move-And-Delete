@@ -2,7 +2,8 @@
 
 Step 1: Add into your info.Plist
 
-  <dict>
+<key>NSUbiquitousContainers</key>
+<dict>
 	<key>iCloud.com.iCloudeFileImportExport</key> //com.iCloudeFileImportExport -> is yuor Bundle Id Replace with yours
 	<dict>
 		<key>NSUbiquitousContainerIsDocumentScopePublic</key>
@@ -12,8 +13,8 @@ Step 1: Add into your info.Plist
 		<key>NSUbiquitousContainerName</key>
 		<string>$(PRODUCT_NAME)</string>
 	</dict>
-  </dict>
-  </plist>
+</dict>
+  
   
   Step 2: Setup With iCloud from project
   	project -> Capability -> iCloude
